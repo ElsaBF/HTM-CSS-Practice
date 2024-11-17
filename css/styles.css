@@ -1,6 +1,6 @@
 body {
-    background-color: #edefee;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #FBF8EF;
+    font-family: "Noto Sans", sans-serif;
     margin-top: 3rem;
     margin-bottom: 3rem;
     margin-left: 5%;
@@ -17,13 +17,23 @@ h2 {
 
 header > img {
     display: block;
+    width: 17%;
     margin-left: auto;
     margin-right: auto;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+}
+
 nav ul {
-    list-style: none;
+    display: flex;
+    padding: 16px;
+    gap: 8px;
     text-align: center;
+    list-style: none;
+    background-color: #C9E6F0;
 }
 
 nav li {
@@ -44,4 +54,11 @@ footer {
 
 footer div {
     flex: 1;
+}
+
+footer img {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
