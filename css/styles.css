@@ -48,6 +48,10 @@ article {
     flex: 1;
 }
 
+.black-friday {
+    background-image: url("Assets/hair-salon.jpg");
+}
+
 footer {
     display: flex;
 }
