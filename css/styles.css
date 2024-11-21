@@ -52,6 +52,10 @@ section {
     display: flex;
 }
 
+article:hover {
+    box-shadow: 16px 8px 8px #C9E6F0;
+}
+
 article {
     flex: 1;
     display: flex;
