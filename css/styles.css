@@ -8,11 +8,11 @@ body {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 header > img {
@@ -34,7 +34,7 @@ nav {
 
 nav ul {
     display: flex;
-    gap: 8px;
+    gap: 16px;
     list-style: none;
 }
 
@@ -43,7 +43,7 @@ nav li {
 }
 
 nav a {
-    color: #C9E6F0;
+    color: #FBF8EF;
     font-size: 18px;
     font-weight: bold;
 }
@@ -55,21 +55,49 @@ section {
 article {
     flex: 1;
     width: 100;
-    justify-content: center;
     border-radius: 16px;
     margin-bottom: 1rem;
-    background-color: #C9E6F0;
+    color: #FBF8EF;
+    background-color: #78B3CE;
 }
 
 .black-friday img {
-    width: 45%;
+    width: 35%;
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
+    align-items: center;
 }
 
 .black-friday article {
     display: flex;
     color: #FBF8EF;
+}
+
+.black-friday-text {
+    padding: 16px;
+}
+
+.cards {
+    gap: 6px;
+}
+
+.cards article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+}
+
+p {
+    text-overflow: ellipsis;
+    overflow-y: auto;
+}
+
+.cards img {
+    flex-shrink: 0;
+    width: 70%;
+    height: 50%;
+    border-radius: 16px;
 }
 
 footer {
@@ -78,11 +106,12 @@ footer {
 
 footer div {
     flex: 1;
+    color: #F96E2A;
 }
 
 footer img {
     display: block;
-    width: 30%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
