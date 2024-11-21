@@ -46,6 +46,11 @@ nav a {
     color: #FBF8EF;
     font-size: 18px;
     font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #78B3CE;
 }
 
 section {
@@ -64,6 +69,7 @@ article {
     margin-bottom: 1rem;
     color: #FBF8EF;
     background-color: #78B3CE;
+    transition: 0.3s;
 }
 
 .black-friday-text {
@@ -71,7 +77,7 @@ article {
 }
 
 .black-friday img {
-    width: 35%;
+    width: 30%;
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
 }
@@ -86,6 +92,10 @@ article {
     padding: 16px;
 }
 
+.cards article > div {
+    width: 100%;
+}
+
 p {
     text-overflow: ellipsis;
     overflow-y: auto;
@@ -96,6 +106,21 @@ p {
     width: 70%;
     height: 45%;
     border-radius: 16px;
+}
+
+button {
+    background-color: #F96E2A;
+    border: none;
+    color: #FBF8EF;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+button:hover {
+    background-color: #C9E6F0;
 }
 
 footer {
